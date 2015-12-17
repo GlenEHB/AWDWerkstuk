@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAAA;MACO;EACH,MAAM,EAAE,CAAC;EACT,OAAO,EAAE,CAAC",
+"sources": ["partials/_reset.scss"],
+"names": [],
+"file": "app.css"
+}
