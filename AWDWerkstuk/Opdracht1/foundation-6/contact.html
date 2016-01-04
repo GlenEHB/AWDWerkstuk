@@ -1,0 +1,136 @@
+<!doctype html>
+<html class="no-js" lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Home</title>
+    <link rel="stylesheet" href="css/foundation.css" />
+    <link rel="stylesheet" href="css/app.css" />
+</head>
+
+<body>
+
+    <!-- Hoofdnavigatie large -->
+    
+    <div class="full-width head-wrapper shadow">
+        <div class="row head-container show-for-large">
+            <div class="large-3 columns">
+                <a href="index.html"><img src="img/logo.png" alt="logo" id="desktop-logo"></a>
+            </div>
+            <div class="large-9 columns nav-container">
+                <div class="menu-container">
+                    <ul class="menu">
+                        <li>
+                            <a href="index.html">Home</a>
+                        </li>
+                        <li>
+                            <a href="projects.html">Projects</a>
+                        </li>
+                        <li>
+                            <a href="about.html">About</a>
+                        </li>
+                        <li>
+                            <a href="contact.html">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Hoofdnavigatie  medium/small + content -->
+
+    <div class="off-canvas-wrapper">
+        <div class="off-canvas-wrapper-inner" data-off-canvas-wrapper>
+            <div class="off-canvas position-left" id="offCanvasLeft" data-off-canvas data-position="left">
+                <ul>
+                    <li>
+                        <a href="index.html">Home</a>
+                    </li>
+                    <li>
+                        <a href="projects.html">Projects</a>
+                    </li>
+                    <li>
+                        <a href="about.html">About</a>
+                    </li>
+                    <li>
+                        <a href="contact.html">Contact</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="off-canvas-content" data-off-canvas-content>
+                <div class="hide-for-large">
+                    <div class="title-bar shadow">
+                        <a href="index.html"><img src="img/logo.png" alt="logo" id="mobile-logo"></a>
+                        <div class="title-bar-left">
+                            <button class="my-menu-icon" type="button" data-open="offCanvasLeft"></button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Map -->
+
+                <div class="row full-width">
+                    <iframe class="large-12 medium-12 small-12 columns map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2519.4020644633183!2d4.320614251613855!3d50.84223847943085!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c3c40f19faf0f9%3A0x4ef5b683135ecb1e!2sErasmushogeschool+Brussel+-+Campus+Kaai!5e0!3m2!1snl!2sbe!4v1451920613454" height="550" frameborder="0" style="border:0" allowfullscreen></iframe>
+                </div>
+
+                <!-- Title content -->
+
+                <div class="row main-title">
+                    <div class="large-12 medium-12 columns">
+                        <h1 class="title-center">CONTACT US</h1>
+                    </div>
+                </div>
+
+                <!-- Contact form -->
+
+                <form action="#" method="POST" class="contact-form">
+                    <div class="row">
+                        <div class="large-6 medium-6 small-12 columns">
+                            <input type="text" placeholder="First name">
+                        </div>
+                        <div class="large-6 medium-6 small-12 columns">
+                            <input type="text" placeholder="Last name">
+                        </div>
+                        <div class="large-6 medium-6 small-12 columns">
+                            <input type="text" placeholder="City">
+                        </div>
+                        <div class="large-6 medium-6 small-12 columns">
+                            <input type="text" placeholder="Email address">
+                        </div>
+                        <div class="large-12 medium-12 small-12 columns">
+                            <textarea placeholder="Message"></textarea>
+                        </div>
+                        <div class="large-2 medium-3 small-12 columns">
+                            <input type="submit" class="button float-right full-width" value="Submit">
+                        </div>
+                    </div>
+                </form>
+
+                <!-- Footer -->
+
+                <footer class="row full-width">
+                    <div class="large-12 medium-12 small-12 columns">
+                        <div>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit?</p>
+                            <a>
+                                <button class="button contact-button">Contact Us</button>
+                            </a>
+                        </div>
+                        <div>
+                            <p>Find us on</p>
+                            <a href="#"><img src="img/facebook.png" alt="facebook"></a>
+                            <a href="#"><img src="img/twitter.png" alt="twitter"></a>
+                        </div>
+                    </div>
+                </footer>
+            </div>
+            <script src="js/vendor/jquery.min.js"></script>
+            <script src="js/vendor/what-input.min.js"></script>
+            <script src="js/foundation.min.js"></script>
+            <script src="js/app.js"></script>
+</body>
+
+</html>
