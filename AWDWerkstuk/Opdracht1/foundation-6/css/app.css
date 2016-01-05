@@ -3,6 +3,12 @@ ul, ol {
   margin: 0;
   padding: 0; }
 
+@font-face {
+  font-family: OpenSans-Regular;
+  src: url(../fonts/OpenSans-Regular.ttf); }
+body {
+  font-family: OpenSans-Regular; }
+
 .head-wrapper {
   background: #FFFFFF; }
 
@@ -84,6 +90,9 @@ ul, ol {
 .projects-banner {
   background-image: url(../img/projectsBanner.jpg); }
 
+.about-banner {
+  background-image: url(../img/aboutBanner.jpg); }
+
 .map {
   padding: 0;
   margin: 0 0 50px 0; }
@@ -116,6 +125,12 @@ ul, ol {
 
 .project-block {
   margin: 0 0 25px 0; }
+
+.about-blocks {
+  margin: 50px auto 0 auto; }
+
+.about-block {
+  margin: 0 0 50px 0; }
 
 .contact-form {
   margin: 50px 0; }
