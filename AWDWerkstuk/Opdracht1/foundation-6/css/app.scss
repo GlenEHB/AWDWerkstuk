@@ -200,3 +200,21 @@ footer {
 .contact-button:focus {
     background: $lichtGrijs;
 }
+
+@media only screen and (max-width: 40em) { 
+    .banner {
+        height: 275px;
+    }
+    
+    .map {
+        height: 275px;
+    }
+}
+
+@media only screen {
+    .off-canvas {
+        a {
+            font-size: 1.2em;
+        }
+    }
+}
