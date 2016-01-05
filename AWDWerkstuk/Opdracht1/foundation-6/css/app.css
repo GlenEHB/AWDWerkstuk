@@ -42,7 +42,8 @@ body {
     margin: 10px 0 10px 10px;
     font-weight: bold; }
   .off-canvas a {
-    color: #FFFFFF; }
+    color: #FFFFFF;
+    font-size: 1.2em; }
 
 .title-bar {
   text-align: center;
@@ -160,14 +161,23 @@ footer {
 .contact-button:focus {
   background: #606051; }
 
+@media only screen {
+  .banner {
+    margin: 66px 0 50px 0; }
+
+  .map {
+    margin: 66px 0 50px 0; } }
 @media only screen and (max-width: 40em) {
   .banner {
     height: 275px; }
 
   .map {
     height: 275px; } }
-@media only screen {
-  .off-canvas a {
-    font-size: 1.2em; } }
+@media only screen and (min-width: 64em) {
+  .banner {
+    margin: 90px 0 50px 0; }
+
+  .map {
+    margin: 90px 0 50px 0; } }
 
 /*# sourceMappingURL=app.css.map */

@@ -6,7 +6,6 @@ body {
     font-family: OpenSans-Regular;
 }
 
-
 .head-wrapper {
     background: $wit;
 }
@@ -49,6 +48,8 @@ body {
     }
     a {
         color: $wit;
+        font-size: 1.2em;
+        
     }
 }
 
@@ -201,20 +202,29 @@ footer {
     background: $lichtGrijs;
 }
 
-@media only screen and (max-width: 40em) { 
+@media only screen {
+    .banner {
+        margin: 66px 0 50px 0;
+    }
+    .map {
+        margin: 66px 0 50px 0;
+    }
+}
+
+@media only screen and (max-width: 40em) {
     .banner {
         height: 275px;
     }
-    
     .map {
         height: 275px;
     }
 }
 
-@media only screen {
-    .off-canvas {
-        a {
-            font-size: 1.2em;
-        }
+@media only screen and (min-width: 64em) {
+    .banner {
+        margin: 90px 0 50px 0;
+    }
+    .map {
+        margin: 90px 0 50px 0;
     }
 }
