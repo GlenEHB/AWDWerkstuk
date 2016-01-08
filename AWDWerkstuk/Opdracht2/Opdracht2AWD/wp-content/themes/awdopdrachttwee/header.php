@@ -17,11 +17,11 @@
     <div class="full-width head-wrapper shadow sticky is-stuck">
         <div class="row head-container show-for-large">
             <div class="large-3 columns">
-                <a href="index.php"><img src="<?php bloginfo('template_directory'); ?>/img/logo.png" alt="logo" id="desktop-logo"></a>
+                <a href="<?php the_permalink(); ?>"><img src="<?php bloginfo('template_directory'); ?>/img/logo.png" alt="logo" id="desktop-logo"></a>
             </div>
             <div class="large-9 columns nav-container">
                 <div class="menu-container">
-                    <?php wp_nav_menu(); ?>
+                    <?php wp_nav_menu( array('theme_location' => 'header-menu', 'container' => 'ul' ) ); ?>
                 </div>
             </div>
         </div>
@@ -32,7 +32,7 @@
     <div class="off-canvas-wrapper">
         <div class="off-canvas-wrapper-inner" data-off-canvas-wrapper>
             <div class="off-canvas position-left" id="offCanvasLeft" data-off-canvas data-position="left">
-                <?php wp_nav_menu(); ?>
+                <?php wp_nav_menu( array( 'theme_location' => 'header-menu' ) ); ?>
             </div>
             <div class="off-canvas-content" data-off-canvas-content>
                 <div class="hide-for-large full-width sticky is-stuck">
