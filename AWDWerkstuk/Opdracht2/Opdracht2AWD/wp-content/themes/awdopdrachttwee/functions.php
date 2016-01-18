@@ -1,5 +1,5 @@
 <?php 
-
+    //thema inladen
     function themeLoader() {
         
         //wp_enqueue_style(naam, worpress start path + toegevoegd deel, dependencies css, versie nummer, op welke apparaten laden (resolutie ...));
@@ -19,9 +19,4 @@
     //add_action(scripts laden in browser, functies die moeten aangeroepen worden);
     add_action("wp_enqueue_scripts", 'themeLoader');
 
-    //menus
-    function register_my_menu() {
-      register_nav_menu('header-menu',__( 'Header Menu' ));
-    }
-    add_action( 'init', 'register_my_menu' );
 ?>
