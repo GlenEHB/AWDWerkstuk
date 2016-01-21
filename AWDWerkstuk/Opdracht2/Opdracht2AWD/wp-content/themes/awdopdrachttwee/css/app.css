@@ -103,6 +103,12 @@ body {
 .main-title p {
   text-align: center; }
 
+.blog-title {
+  margin: 50px 0 25px 0; }
+
+.blog-content {
+  margin: 0 0 25px 0; }
+
 .info-blocks {
   margin: 50px auto 0 auto; }
   .info-blocks h1 {
@@ -178,6 +184,9 @@ footer {
     margin: 90px 0 50px 0; }
 
   .map {
-    margin: 90px 0 50px 0; } }
+    margin: 90px 0 50px 0; }
+
+  .marginBlock {
+    margin: 90px 0 0 0; } }
 
 /*# sourceMappingURL=app.css.map */
